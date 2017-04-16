@@ -30,7 +30,7 @@ After installing the lolcommits gem, install this plugin with:
 
     $ gem install lolcommits-tranzlate
 
-Then enable it with:
+Then enable tranzlate with:
 
     $ lolcommits --config -p tranzlate
     # and set enabled to `true`
