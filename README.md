@@ -10,9 +10,9 @@
 every time you git commit code, and archives a lolcat style image with it. Git
 blame has never been so much fun!
 
-This plugin  ...
-
-Your lolcommit will then be tranzlated to read something like this::
+This plugin will TRANZLATE YOAR COMMIT MSG TO
+[LOLSPEKK](https://github.com/rwtnorton/moar-lolspeak) - U CAN HAZ PICZ LIKEZ
+DIS:
 
 ![lolz
 commit](https://github.com/lolcommits/lolcommits-tranzlate/raw/master/assets/images/lolz.jpg)
@@ -30,10 +30,12 @@ After installing the lolcommits gem, install this plugin with:
 
     $ gem install lolcommits-tranzlate
 
-Then enable the plugin with:
+Then enable it with:
 
     $ lolcommits --config -p tranzlate
-    # and set enabled to `false`
+    # and set enabled to `true`
+
+Thats it!
 
 ## Development
 

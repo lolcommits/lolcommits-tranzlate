@@ -1,4 +1,5 @@
 require 'lolcommits/plugin/base'
+require 'lolcommits/tranzlate/lolspeak'
 
 module Lolcommits
   module Plugin
@@ -27,14 +28,13 @@ module Lolcommits
       #
       # Pre-capture hook, runs after lolcommits captures a snapshot.
       #
-      # Annotates the image with the git commit message and sha text
+      # Translate the commmit message with lolspeak
       #
       def run_precapture
         debug "Commit message before: #{runner.message}"
         runner.message = self.class.tranzlate(runner.message)
         debug "Commit message after: #{runner.message}"
       end
-
     end
   end
 end
