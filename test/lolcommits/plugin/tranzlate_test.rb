@@ -56,7 +56,7 @@ describe Lolcommits::Plugin::Tranzlate do
 
       it 'should tranzlate the commit message' do
         in_repo { plugin.run_precapture }
-        runner.message.must_equal 'MAI AWESUM COMMIT'
+        runner.message.must_match /AWESUM COMMIT/
       end
 
       after { teardown_repo }
