@@ -35,7 +35,7 @@ Then enable tranzlate with:
     $ lolcommits --config -p tranzlate
     # and set enabled to `true`
 
-Thats it!
+Thats it! Your lolcommit messages will now be tranzlated!
 
 ## Development
 
