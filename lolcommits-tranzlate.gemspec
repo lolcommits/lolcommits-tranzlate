@@ -8,12 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Lolcommits::Tranzlate::VERSION
   spec.authors       = ["Matthew Hutchinson"]
   spec.email         = ["matt@hiddenloop.com"]
-  spec.summary       = %q{lolcommits text annotation plugin}
-
-  spec.description = <<-EOF
-  Overlay the commit message and sha on your lolcommit. Configure text style,
-  positioning and an optional transparent overlay.
-  EOF
+  spec.summary       = %q{lolcommits lolspekk tranzlation plugin}
+  spec.description   = %q{TRANZLATE YOAR LOLCOMMIT MSG TO LOLSPEKK}
 
   spec.homepage      = "https://lolcommits.github.io"
   spec.license       = "LGPL-3"
