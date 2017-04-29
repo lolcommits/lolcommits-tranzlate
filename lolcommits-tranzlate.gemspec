@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.summary       = %q{lolcommits lolspekk tranzlation plugin}
   spec.description   = %q{TRANZLATE YOAR LOLCOMMIT MSG TO LOLSPEKK}
 
-  spec.homepage      = "https://lolcommits.github.io"
+  spec.homepage      = "https://github.com/lolcommits/lolcommits-tranzlate"
   spec.license       = "LGPL-3"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
