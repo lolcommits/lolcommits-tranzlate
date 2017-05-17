@@ -18,10 +18,12 @@ module Lolcommits
       # Returns position(s) of when this plugin should run during the capture
       # process.
       #
-      # @return [Array] the position(s) (:precapture and/or :postcapture)
+      # We want to change the commit message text before the capture happens.
+      #
+      # @return [Array] the position(s) (:pre_capture
       #
       def self.runner_order
-        [:precapture]
+        [:pre_capture]
       end
 
       ##
@@ -30,7 +32,7 @@ module Lolcommits
       #
       # Translate the commmit message with lolspeak
       #
-      def run_precapture
+      def run_pre_capture
         debug "Commit message before: #{runner.message}"
         runner.message = self.class.tranzlate(runner.message)
         debug "Commit message after: #{runner.message}"

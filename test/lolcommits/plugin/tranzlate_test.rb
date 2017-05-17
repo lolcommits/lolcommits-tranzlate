@@ -51,11 +51,11 @@ describe Lolcommits::Plugin::Tranzlate do
       end
     end
 
-    describe '#run_precapture' do
+    describe '#run_pre_capture' do
       before { commit_repo_with_message('my awesome commit') }
 
       it 'should tranzlate the commit message' do
-        in_repo { plugin.run_precapture }
+        in_repo { plugin.run_pre_capture }
         runner.message.must_match /AWESUM COMMIT/
       end
 
