@@ -10,7 +10,7 @@ describe Lolcommits::Plugin::Tranzlate do
   end
 
   it 'should run on post capturing' do
-    ::Lolcommits::Plugin::Tranzlate.runner_order.must_equal [:precapture]
+    ::Lolcommits::Plugin::Tranzlate.runner_order.must_equal [:pre_capture]
   end
 
   describe 'with a runner' do

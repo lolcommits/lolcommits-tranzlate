@@ -20,7 +20,7 @@ module Lolcommits
       #
       # We want to change the commit message text before the capture happens.
       #
-      # @return [Array] the position(s) (:pre_capture
+      # @return [Array] the position(s) (:pre_capture)
       #
       def self.runner_order
         [:pre_capture]
