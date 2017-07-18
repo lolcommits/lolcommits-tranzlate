@@ -22,7 +22,7 @@ describe Lolcommits::Plugin::Tranzlate do
     end
 
     def plugin
-      @plugin ||= Lolcommits::Plugin::Tranzlate.new(runner)
+      @plugin ||= Lolcommits::Plugin::Tranzlate.new(runner: runner)
     end
 
     def valid_enabled_config
