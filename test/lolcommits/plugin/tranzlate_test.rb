@@ -46,7 +46,7 @@ describe Lolcommits::Plugin::Tranzlate do
       end
 
       it 'should true when configured' do
-        plugin.runner.config = valid_enabled_config
+        plugin.config = valid_enabled_config
         plugin.enabled?.must_equal true
       end
     end
@@ -56,7 +56,7 @@ describe Lolcommits::Plugin::Tranzlate do
 
       it 'should tranzlate the commit message' do
         in_repo { plugin.run_pre_capture }
-        runner.message.must_match /AWESUM COMMIT/
+        runner.message.must_match(/AWESUM COMMIT/)
       end
 
       after { teardown_repo }
