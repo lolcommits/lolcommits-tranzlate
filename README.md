@@ -2,8 +2,8 @@
 
 [![Gem Version](https://img.shields.io/gem/v/lolcommits-tranzlate.svg?style=flat)](http://rubygems.org/gems/lolcommits-tranzlate)
 [![Travis Build Status](https://travis-ci.org/lolcommits/lolcommits-tranzlate.svg?branch=master)](https://travis-ci.org/lolcommits/lolcommits-tranzlate)
-[![Coverage Status](https://coveralls.io/repos/github/lolcommits/lolcommits-tranzlate/badge.svg?branch=master)](https://coveralls.io/github/lolcommits/lolcommits-tranzlate)
-[![Code Climate](https://codeclimate.com/github/lolcommits/lolcommits-tranzlate/badges/gpa.svg)](https://codeclimate.com/github/lolcommits/lolcommits-tranzlate)
+[![Maintainability](https://img.shields.io/codeclimate/maintainability/lolcommits/lolcommits-tranzlate.svg)](https://codeclimate.com/github/lolcommits/lolcommits-tranzlate/maintainability)
+[![Test Coverage](https://img.shields.io/codeclimate/c/lolcommits/lolcommits-tranzlate.svg)](https://codeclimate.com/github/lolcommits/lolcommits-tranzlate/test_coverage)
 [![Gem Dependency Status](https://gemnasium.com/badges/github.com/lolcommits/lolcommits-tranzlate.svg)](https://gemnasium.com/github.com/lolcommits/lolcommits-tranzlate)
 
 [lolcommits](https://lolcommits.github.io/) takes a snapshot with your webcam
@@ -91,7 +91,7 @@ The gem is available as open source under the terms of
 ## Links
 
 * [Travis CI](https://travis-ci.org/lolcommits/lolcommits-tranzlate)
-* [Test Coverage](https://coveralls.io/github/lolcommits/lolcommits-tranzlate)
+* [Test Coverage](https://codeclimate.com/github/lolcommits/lolcommits-tranzlate/test_coverage)
 * [Code Climate](https://codeclimate.com/github/lolcommits/lolcommits-tranzlate)
 * [RDoc](http://rdoc.info/projects/lolcommits/lolcommits-tranzlate)
 * [Issues](http://github.com/lolcommits/lolcommits-tranzlate/issues)
