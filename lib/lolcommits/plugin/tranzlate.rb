@@ -6,15 +6,6 @@ module Lolcommits
     class Tranzlate < Base
       extend Lolcommits::Tranzlate::Lolspeak
 
-      ##
-      # Returns the name of the plugin. Identifies the plugin to lolcommits.
-      #
-      # @return [String] the plugin name
-      #
-      def self.name
-        'tranzlate'
-      end
-
       # Returns position(s) of when this plugin should run during the capture
       # process.
       #
