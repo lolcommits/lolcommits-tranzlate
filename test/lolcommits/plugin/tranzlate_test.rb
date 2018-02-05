@@ -20,7 +20,7 @@ describe Lolcommits::Plugin::Tranzlate do
 
     describe '#enabled?' do
       it 'should be false by default' do
-        assert_nil plugin.enabled?
+        plugin.enabled?.must_equal false
       end
 
       it 'should true when configured' do
