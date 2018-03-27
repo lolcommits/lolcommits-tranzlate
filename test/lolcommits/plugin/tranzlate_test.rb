@@ -5,10 +5,6 @@ describe Lolcommits::Plugin::Tranzlate do
   include Lolcommits::TestHelpers::GitRepo
   include Lolcommits::TestHelpers::FakeIO
 
-  it 'should run on post capturing' do
-    ::Lolcommits::Plugin::Tranzlate.runner_order.must_equal [:pre_capture]
-  end
-
   describe 'with a runner' do
     def runner
       @runner ||= Lolcommits::Runner.new
@@ -19,11 +15,11 @@ describe Lolcommits::Plugin::Tranzlate do
     end
 
     describe '#enabled?' do
-      it 'should be false by default' do
+      it 'returns false by default' do
         plugin.enabled?.must_equal false
       end
 
-      it 'should true when configured' do
+      it 'returns true when configured' do
         plugin.configuration = { enabled: true }
         plugin.enabled?.must_equal true
       end
@@ -32,7 +28,7 @@ describe Lolcommits::Plugin::Tranzlate do
     describe '#run_pre_capture' do
       before { commit_repo_with_message('my awesome commit') }
 
-      it 'should tranzlate the commit message' do
+      it 'tranzlates the commit message' do
         in_repo { plugin.run_pre_capture }
         runner.message.must_match(/AWESUM COMMIT/)
       end

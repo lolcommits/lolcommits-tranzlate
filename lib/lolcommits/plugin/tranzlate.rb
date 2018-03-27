@@ -6,17 +6,6 @@ module Lolcommits
     class Tranzlate < Base
       extend Lolcommits::Tranzlate::Lolspeak
 
-      # Returns position(s) of when this plugin should run during the capture
-      # process.
-      #
-      # We want to change the commit message text before the capture happens.
-      #
-      # @return [Array] the position(s) (:pre_capture)
-      #
-      def self.runner_order
-        [:pre_capture]
-      end
-
       ##
       #
       # Pre-capture hook, runs after lolcommits captures a snapshot.
