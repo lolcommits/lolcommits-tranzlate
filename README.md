@@ -3,8 +3,8 @@
 [![Gem](https://img.shields.io/gem/v/lolcommits-tranzlate.svg?style=flat)](http://rubygems.org/gems/lolcommits-tranzlate)
 [![Travis](https://travis-ci.org/lolcommits/lolcommits-tranzlate.svg?branch=master)](https://travis-ci.org/lolcommits/lolcommits-tranzlate)
 [![Depfu](https://img.shields.io/depfu/lolcommits/lolcommits-tranzlate.svg?style=flat)](https://depfu.com/github/lolcommits/lolcommits-tranzlate)
-[![Maintainability](https://img.shields.io/codeclimate/maintainability/lolcommits/lolcommits-tranzlate.svg)](https://codeclimate.com/github/lolcommits/lolcommits-tranzlate/maintainability)
-[![Test Coverage](https://img.shields.io/codeclimate/c/lolcommits/lolcommits-tranzlate.svg)](https://codeclimate.com/github/lolcommits/lolcommits-tranzlate/test_coverage)
+[![Maintainability](https://api.codeclimate.com/v1/badges/9756257deacd122a4063/maintainability)](https://codeclimate.com/github/lolcommits/lolcommits-tranzlate/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/9756257deacd122a4063/test_coverage)](https://codeclimate.com/github/lolcommits/lolcommits-tranzlate/test_coverage)
 
 [lolcommits](https://lolcommits.github.io/) takes a snapshot with your webcam
 every time you git commit code, and archives a lolcat style image with it. Git
