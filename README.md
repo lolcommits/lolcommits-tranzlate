@@ -1,10 +1,10 @@
 # Lolcommits Tranzlate
 
-[![Gem Version](https://img.shields.io/gem/v/lolcommits-tranzlate.svg?style=flat)](http://rubygems.org/gems/lolcommits-tranzlate)
-[![Travis Build Status](https://travis-ci.org/lolcommits/lolcommits-tranzlate.svg?branch=master)](https://travis-ci.org/lolcommits/lolcommits-tranzlate)
+[![Gem](https://img.shields.io/gem/v/lolcommits-tranzlate.svg?style=flat)](http://rubygems.org/gems/lolcommits-tranzlate)
+[![Travis](https://travis-ci.org/lolcommits/lolcommits-tranzlate.svg?branch=master)](https://travis-ci.org/lolcommits/lolcommits-tranzlate)
+[![Depfu](https://img.shields.io/depfu/lolcommits/lolcommits-tranzlate.svg?style=flat)](https://depfu.com/github/lolcommits/lolcommits-tranzlate)
 [![Maintainability](https://img.shields.io/codeclimate/maintainability/lolcommits/lolcommits-tranzlate.svg)](https://codeclimate.com/github/lolcommits/lolcommits-tranzlate/maintainability)
 [![Test Coverage](https://img.shields.io/codeclimate/c/lolcommits/lolcommits-tranzlate.svg)](https://codeclimate.com/github/lolcommits/lolcommits-tranzlate/test_coverage)
-[![Gem Dependency Status](https://gemnasium.com/badges/github.com/lolcommits/lolcommits-tranzlate.svg)](https://gemnasium.com/github.com/lolcommits/lolcommits-tranzlate)
 
 [lolcommits](https://lolcommits.github.io/) takes a snapshot with your webcam
 every time you git commit code, and archives a lolcat style image with it. Git
