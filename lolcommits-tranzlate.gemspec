@@ -1,18 +1,16 @@
-# coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'lolcommits/tranzlate/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "lolcommits-tranzlate"
-  spec.version       = Lolcommits::Tranzlate::VERSION
-  spec.authors       = ["Matthew Hutchinson"]
-  spec.email         = ["matt@hiddenloop.com"]
-  spec.summary       = %q{lolcommits lolspekk tranzlation plugin}
-  spec.description   = %q{TRANZLATE YOAR LOLCOMMIT MSG TO LOLSPEKK}
-
-  spec.homepage      = "https://github.com/lolcommits/lolcommits-tranzlate"
-  spec.license       = "LGPL-3"
+  spec.name        = "lolcommits-tranzlate"
+  spec.version     = Lolcommits::Tranzlate::VERSION
+  spec.authors     = ["Matthew Hutchinson"]
+  spec.email       = ["matt@hiddenloop.com"]
+  spec.summary     = %q{lolcommits lolspekk tranzlation plugin}
+  spec.homepage    = "https://github.com/lolcommits/lolcommits-tranzlate"
+  spec.license     = "LGPL-3"
+  spec.description = %q{TRANZLATE YOAR LOLCOMMIT MSG TO LOLSPEKK}
 
   spec.metadata = {
     "homepage_uri"    => "https://github.com/lolcommits/lolcommits-tranzlate",
