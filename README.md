@@ -1,7 +1,7 @@
 # Lolcommits Tranzlate
 
 [![Gem](https://img.shields.io/gem/v/lolcommits-tranzlate.svg?style=flat)](http://rubygems.org/gems/lolcommits-tranzlate)
-[![Travis](https://travis-ci.org/lolcommits/lolcommits-tranzlate.svg?branch=master)](https://travis-ci.org/lolcommits/lolcommits-tranzlate)
+[![Travis](https://img.shields.io/travis/com/lolcommits/lolcommits-tranzlate/master.svg?style=flat)](https://travis-ci.com/lolcommits/lolcommits-tranzlate)
 [![Depfu](https://img.shields.io/depfu/lolcommits/lolcommits-tranzlate.svg?style=flat)](https://depfu.com/github/lolcommits/lolcommits-tranzlate)
 [![Maintainability](https://api.codeclimate.com/v1/badges/9756257deacd122a4063/maintainability)](https://codeclimate.com/github/lolcommits/lolcommits-tranzlate/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/9756257deacd122a4063/test_coverage)](https://codeclimate.com/github/lolcommits/lolcommits-tranzlate/test_coverage)
@@ -72,7 +72,7 @@ GitHub.
 
 When submitting pull requests, remember to add tests covering any new behaviour,
 and ensure all tests are passing on [Travis
-CI](https://travis-ci.org/lolcommits/lolcommits-tranzlate). Read the
+CI](https://travis-ci.com/lolcommits/lolcommits-tranzlate). Read the
 [contributing
 guidelines](https://github.com/lolcommits/lolcommits-tranzlate/blob/master/CONTRIBUTING.md)
 for more details.
@@ -90,7 +90,7 @@ The gem is available as open source under the terms of
 
 ## Links
 
-* [Travis CI](https://travis-ci.org/lolcommits/lolcommits-tranzlate)
+* [Travis CI](https://travis-ci.com/lolcommits/lolcommits-tranzlate)
 * [Test Coverage](https://codeclimate.com/github/lolcommits/lolcommits-tranzlate/test_coverage)
 * [Code Climate](https://codeclimate.com/github/lolcommits/lolcommits-tranzlate)
 * [RDoc](http://rdoc.info/projects/lolcommits/lolcommits-tranzlate)
