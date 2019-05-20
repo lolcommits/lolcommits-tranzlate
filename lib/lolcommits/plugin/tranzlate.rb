@@ -10,7 +10,7 @@ module Lolcommits
 
       ##
       #
-      # Pre-capture hook, runs after lolcommits captures a snapshot.
+      # Pre-capture hook, runs after lolcommits captures.
       #
       # Translate the commmit message with lolspeak
       #

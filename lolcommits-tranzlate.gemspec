@@ -9,24 +9,16 @@ Gem::Specification.new do |spec|
   spec.email       = ["matt@hiddenloop.com"]
   spec.summary     = %q{lolcommits lolspekk tranzlation plugin}
   spec.homepage    = "https://github.com/lolcommits/lolcommits-tranzlate"
-  spec.license     = "LGPL-3"
+  spec.license     = "LGPL-3.0"
   spec.description = %q{TRANZLATE YOAR LOLCOMMIT MSG TO LOLSPEKK}
 
   spec.metadata = {
-    "homepage_uri"    => "https://github.com/lolcommits/lolcommits-tranzlate",
-    "changelog_uri"   => "https://github.com/lolcommits/lolcommits-tranzlate/blob/master/CHANGELOG.md",
-    "source_code_uri" => "https://github.com/lolcommits/lolcommits-tranzlate",
-    "bug_tracker_uri" => "https://github.com/lolcommits/lolcommits-tranzlate/issues",
+    "homepage_uri"      => "https://github.com/lolcommits/lolcommits-tranzlate",
+    "changelog_uri"     => "https://github.com/lolcommits/lolcommits-tranzlate/blob/master/CHANGELOG.md",
+    "source_code_uri"   => "https://github.com/lolcommits/lolcommits-tranzlate",
+    "bug_tracker_uri"   => "https://github.com/lolcommits/lolcommits-tranzlate/issues",
+    "allowed_push_host" => "https://rubygems.org"
   }
-
-  # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
-  # to allow pushing to a single host or delete this section to allow pushing to any host.
-  if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = "https://rubygems.org"
-  else
-    raise "RubyGems 2.0 or newer is required to protect against " \
-      "public gem pushes."
-  end
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(assets|test|features)/}) }
   spec.test_files    = `git ls-files -- {test,features}/*`.split("\n")
@@ -35,8 +27,8 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.required_ruby_version = ">= 2.3"
+  spec.add_runtime_dependency "lolcommits", ">= 0.14.2"
 
-  spec.add_development_dependency "lolcommits", ">= 0.12.0"
   spec.add_development_dependency "bundler"
   spec.add_development_dependency "rake"
   spec.add_development_dependency "minitest"
