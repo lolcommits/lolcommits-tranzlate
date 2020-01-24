@@ -18,12 +18,12 @@ describe Lolcommits::Plugin::Tranzlate do
 
     describe '#enabled?' do
       it 'returns false by default' do
-        plugin.enabled?.must_equal false
+        _(plugin.enabled?).must_equal false
       end
 
       it 'returns true when configured' do
         plugin.configuration = { enabled: true }
-        plugin.enabled?.must_equal true
+        _(plugin.enabled?).must_equal true
       end
     end
 
@@ -32,7 +32,7 @@ describe Lolcommits::Plugin::Tranzlate do
 
       it 'tranzlates the commit message' do
         in_repo { plugin.run_pre_capture }
-        runner.message.must_match(/AWESUM COMMIT/)
+        _(runner.message).must_match(/AWESUM COMMIT/)
       end
 
       after { teardown_repo }
