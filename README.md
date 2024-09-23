@@ -1,10 +1,8 @@
 # Lolcommits Tranzlate
 
+[![Build](https://img.shields.io/github/actions/workflow/status/lolcommits/lolcommits-tranzlate/build.yml?branch=main&style=flat)](https://github.com/lolcommits/lolcommits-tranzlate/actions/workflows/build.yml)
 [![Gem](https://img.shields.io/gem/v/lolcommits-tranzlate.svg?style=flat)](http://rubygems.org/gems/lolcommits-tranzlate)
-[![Travis](https://img.shields.io/travis/com/lolcommits/lolcommits-tranzlate/master.svg?style=flat)](https://travis-ci.com/lolcommits/lolcommits-tranzlate)
 [![Depfu](https://img.shields.io/depfu/lolcommits/lolcommits-tranzlate.svg?style=flat)](https://depfu.com/github/lolcommits/lolcommits-tranzlate)
-[![Maintainability](https://api.codeclimate.com/v1/badges/9756257deacd122a4063/maintainability)](https://codeclimate.com/github/lolcommits/lolcommits-tranzlate/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/9756257deacd122a4063/test_coverage)](https://codeclimate.com/github/lolcommits/lolcommits-tranzlate/test_coverage)
 
 [lolcommits](https://lolcommits.github.io/) takes a snapshot with your
 webcam every time you git commit code, and archives a lolcat style image
@@ -15,11 +13,11 @@ This plugin will TRANZLATE YOAR COMMIT MSG TO
 LIKEZ DIS:
 
 ![lolz
-commit](https://github.com/lolcommits/lolcommits-tranzlate/raw/master/assets/images/lolz.jpg)
+commit](https://github.com/lolcommits/lolcommits-tranzlate/raw/main/assets/images/lolz.jpg)
 
 ## Requirements
 
-* Ruby >= 2.4
+* Ruby >= 3.1
 * A webcam
 * [ImageMagick](http://www.imagemagick.org)
 * [ffmpeg](https://www.ffmpeg.org) (optional) for animated gif capturing
@@ -72,10 +70,8 @@ and [pull
 requests](https://github.com/lolcommits/lolcommits-tranzlate/pulls) are
 welcome on GitHub.
 
-When submitting pull requests, remember to add tests covering any new
-behaviour, and ensure all tests are passing on [Travis
-CI](https://travis-ci.com/lolcommits/lolcommits-tranzlate). Read the
-[contributing
+When submitting pull requests, remember to add tests covering any new behaviour,
+and ensure all tests are passing on CI. Read the [contributing
 guidelines](https://github.com/lolcommits/lolcommits-tranzlate/blob/master/CONTRIBUTING.md)
 for more details.
 
@@ -93,9 +89,7 @@ The gem is available as open source under the terms of
 
 ## Links
 
-* [Travis CI](https://travis-ci.com/lolcommits/lolcommits-tranzlate)
-* [Test Coverage](https://codeclimate.com/github/lolcommits/lolcommits-tranzlate/test_coverage)
-* [Code Climate](https://codeclimate.com/github/lolcommits/lolcommits-tranzlate)
+* [CI](https://github.com/lolcommits/lolcommits-tranzlate/actions/workflows/build.yml)
 * [RDoc](http://rdoc.info/projects/lolcommits/lolcommits-tranzlate)
 * [Issues](http://github.com/lolcommits/lolcommits-tranzlate/issues)
 * [Report a bug](http://github.com/lolcommits/lolcommits-tranzlate/issues/new)
