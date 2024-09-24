@@ -38,8 +38,7 @@ Thats it! Your lolcommit messages will now be tranzlated!
 ## Development
 
 Check out this repo and run `bin/setup`, to install all dependencies and
-generate docs. Run `bundle exec rake` to run all tests and generate a
-coverage report.
+generate docs. Run `bundle exec rake` to run all tests.
 
 You can also run `bin/console` for an interactive prompt that will allow
 you to experiment with the gem code.
