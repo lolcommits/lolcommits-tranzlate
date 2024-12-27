@@ -9,9 +9,10 @@ project adheres to [Semantic Versioning][Semver].
 
 - Your contribution here!
 
-## [0.5.1] - 2024-12-27
+## [0.5.2] - 2024-12-27
 ### Changed
 - Push gems with bundler (not GitHub actions)
+- Updated documentation links
 
 ## [0.5.0] - 2024-09-23
 ### Removed
@@ -81,7 +82,8 @@ project adheres to [Semantic Versioning][Semver].
 ### Changed
 - Initial release
 
-[Unreleased]: https://github.com/lolcommits/lolcommits-tranzlate/compare/v0.5.0...HEAD
+[Unreleased]: https://github.com/lolcommits/lolcommits-tranzlate/compare/v0.5.2...HEAD
+[0.5.2]: https://github.com/lolcommits/lolcommits-tranzlate/compare/v0.5.0...v0.5.2
 [0.5.0]: https://github.com/lolcommits/lolcommits-tranzlate/compare/v0.4.0...v0.5.0
 [0.4.0]: https://github.com/lolcommits/lolcommits-tranzlate/compare/v0.3.0...v0.4.0
 [0.3.0]: https://github.com/lolcommits/lolcommits-tranzlate/compare/v0.2.0...v0.3.0

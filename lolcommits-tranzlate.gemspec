@@ -14,6 +14,7 @@ Gem::Specification.new do |spec|
 
   spec.metadata = {
     "homepage_uri"      => "https://github.com/lolcommits/lolcommits-tranzlate",
+    "documentation_uri" => "https://gemdocs.org/gems/lolcommits-tranzlate",
     "changelog_uri"     => "https://github.com/lolcommits/lolcommits-tranzlate/blob/master/CHANGELOG.md",
     "source_code_uri"   => "https://github.com/lolcommits/lolcommits-tranzlate",
     "bug_tracker_uri"   => "https://github.com/lolcommits/lolcommits-tranzlate/issues",
