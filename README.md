@@ -1,6 +1,6 @@
 # Lolcommits Tranzlate
 
-[![Build](https://img.shields.io/github/actions/workflow/status/lolcommits/lolcommits-tranzlate/build.yml?branch=main&style=flat)](https://github.com/lolcommits/lolcommits-tranzlate/actions/workflows/build.yml)
+[![CI](https://img.shields.io/github/actions/workflow/status/lolcommits/lolcommits-tranzlate/ci.yml?branch=main&style=flat&label=CI)](https://github.com/lolcommits/lolcommits-tranzlate/actions/workflows/ci.yml)
 [![Gem](https://img.shields.io/gem/v/lolcommits-tranzlate.svg?style=flat)](http://rubygems.org/gems/lolcommits-tranzlate)
 [![Depfu](https://img.shields.io/depfu/lolcommits/lolcommits-tranzlate.svg?style=flat)](https://depfu.com/github/lolcommits/lolcommits-tranzlate)
 
@@ -88,7 +88,7 @@ The gem is available as open source under the terms of
 
 ## Links
 
-* [CI](https://github.com/lolcommits/lolcommits-tranzlate/actions/workflows/build.yml)
+* [CI](https://github.com/lolcommits/lolcommits-tranzlate/actions/workflows/ci.yml)
 * [RDoc](http://rdoc.info/projects/lolcommits/lolcommits-tranzlate)
 * [Issues](http://github.com/lolcommits/lolcommits-tranzlate/issues)
 * [Report a bug](http://github.com/lolcommits/lolcommits-tranzlate/issues/new)

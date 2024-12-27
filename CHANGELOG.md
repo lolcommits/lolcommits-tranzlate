@@ -9,6 +9,10 @@ project adheres to [Semantic Versioning][Semver].
 
 - Your contribution here!
 
+## [0.5.1] - 2024-12-27
+### Changed
+- Push gems with bundler (not GitHub actions)
+
 ## [0.5.0] - 2024-09-23
 ### Removed
 - Support for Ruby < 3.1 (older rubies no longer supported)

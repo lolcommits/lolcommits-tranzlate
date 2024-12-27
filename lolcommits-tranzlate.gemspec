@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
     "allowed_push_host" => "https://rubygems.org"
   }
 
-  spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(assets|test|features)/}) }
+  spec.files         = `git ls-files`.split("\n")
   spec.test_files    = `git ls-files -- {test,features}/*`.split("\n")
   spec.bindir        = "bin"
   spec.executables   = []
