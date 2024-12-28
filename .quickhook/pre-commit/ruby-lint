@@ -1,2 +1,3 @@
 #!/bin/sh
-grep '\.rb$\|Gemfile|Rakefile' | xargs bundle exec rubocop --config .rubocop.yml --force-exclusion
+set -e
+grep '\.rb$\|Gemfile\|Rakefile' | xargs bin/rubocop --config .rubocop.yml --force-exclusion
