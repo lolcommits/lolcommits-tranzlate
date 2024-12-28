@@ -1,13 +1,13 @@
 # frozen_string_literal: true
 
-require 'test_helper'
+require "test_helper"
 
 class TestLolcommitsPluginTranzlate < Minitest::Test
   include Lolcommits::TestHelpers::GitRepo
   include Lolcommits::TestHelpers::FakeIO
 
   def test_enabled_returns_false_by_default
-    refute plugin.enabled?
+    assert_equal false, plugin.enabled?
   end
 
   def test_enabled_returns_true_when_configured

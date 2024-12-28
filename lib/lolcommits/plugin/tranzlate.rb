@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-require 'lolcommits/plugin/base'
-require 'lolcommits/tranzlate/lolspeak'
+require "lolcommits/plugin/base"
+require "lolcommits/tranzlate/lolspeak"
 
 module Lolcommits
   module Plugin
