@@ -67,7 +67,7 @@ module Lolcommits
         /thank/            => %w[fank tank thx thnx],
         /good/             => %w[gud goed guud gude gewd goot gut],
         /really/           => %w[rly rily rilly rilleh],
-        /world/            => %w[wurrld whirld wurld wrld],
+        /world/            => %w[wurrld whirld wurld wrld woorld],
         /i'?m\b/           => [ "im", "i yam", "i iz" ],
         /(?!e)ight/        => %w[ite],
         /(?!ues)tion/      => %w[shun],
