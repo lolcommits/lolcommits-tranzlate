@@ -89,7 +89,7 @@ The gem is available as open source under the terms of
 ## Links
 
 * [CI](https://github.com/lolcommits/lolcommits-tranzlate/actions/workflows/ci.yml)
-* [RDoc](https://gemdocs.org/gems/lolcommits-tranzlate)
+* [RDoc](https://rubydoc.info/gems/lolcommits-tranzlate)
 * [Issues](http://github.com/lolcommits/lolcommits-tranzlate/issues)
 * [Report a bug](http://github.com/lolcommits/lolcommits-tranzlate/issues/new)
 * [Gem](http://rubygems.org/gems/lolcommits-tranzlate)
